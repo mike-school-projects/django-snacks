@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="bd-white dark:bg-black">
+        <h1 class="text-white">About page</h1>
+        {% for adjective in characteristics %}
+            <p class="text-white"> Mike is {{adjective}}.</p>
+        {% endfor %}
+    </div>
+{% endblock content %}
+
+
+
